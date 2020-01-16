@@ -1,6 +1,6 @@
 self.addEventListener('install', (event) => {
     event.waitUntil(
-        caches.open('restaurant-reviews-v6').then((cache) => {
+        caches.open('restaurant-reviews-v7').then((cache) => {
             fetch('data/restaurants.json')
             .then(data => data.json())
             .then((json) => {
