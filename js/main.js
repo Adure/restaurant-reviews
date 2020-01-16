@@ -181,6 +181,7 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
+  //Set tabindex incrementally for each restaurant listing
   more.setAttribute('tabindex', Number(restaurant.id) + 1);
   li.append(more)
 

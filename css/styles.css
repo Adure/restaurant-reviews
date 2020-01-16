@@ -102,11 +102,9 @@ nav h1 a {
 /* ====================== Map ====================== */
 #map-container {
   height: 20em;
-  /*position: absolute;*/
   right: 0;
   top: 2.2em;
   width: 100%;
-  /*z-index: 1;*/
 }
 #map {
   background-color: #ccc;
@@ -197,7 +195,6 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  /*position: fixed;*/
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -205,7 +202,6 @@ nav h1 a {
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 20em;
-  /*position: absolute;*/
   right: 0;
   top: 2.2em;
   width: 100%;
@@ -218,8 +214,6 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
-  /*position: absolute;
-  width: 90%;*/
 }
 #restaurant-name {
   color: #f18200;
